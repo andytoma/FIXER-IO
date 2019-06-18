@@ -1,0 +1,389 @@
+                    framework
+
++ fast spin off
++ ready to use components
++ plugins/extensions
++ xbrowser
++ adaptive/responsive
++ mobile first
++ 100+ developers
++ bags/...
++ docs + tuts + strategies
++ trust
+
+                 top css framework
+* Bootstrap    v3.3.7       bootstrap-4.ru
+* Semantic-UI
+* Foundation
+* Materialize
+* Material UI
+* Pure css
+
+
+
+-------------------------------------------------------------------------------
+                            JavaScript
+-------------------------------------------------------------------------------
+JS - JavaScript ??  ECMAScript - ES
+Web Programming Language
+ + Browser (frontent)
+ (HTML - structude , csss - style,  JS - behaviour)
+ + Node.js (General Purpose)
+ + Gaming
+ + Apps
+ + Extesions
+ + Data Exchange
+ + ...
+
+
+JS -> script/ program(
+     * expression / actions / commands;
+     * case sensitive
+        x nu este X
+     * expression:
+          - identifiers/ names -----> alert("Hi")
+          - values  -------> 2+2,  "Hi",  .......
+          - operators/ operations(actions) -----> +,-,*,/,.......
+          - reserved words  ----> if, else, for, .....
+          - prefix / labels ----> conts, let , var,
+          - {}              ----> container / block code
+          - comments   /*  block comment */      ,    //line
+
+     * basic functions  (read/write):
+          - alert( ... )       ---->  info -----> user
+          - confirm ( ... )    -----> info -----> user
+                               <----- reactia --- user
+          - prompt ( ... )     -----> info -----> user
+                               <----- valoare --- user
+          - console.log( ... ) -----> console(F12)
+
+     * data types
+          - Number (100,-1, 0.5 , )
+          - String ("Hello", "123456", ...)
+               + "double" , 'single' , `modern`  ---> pt a identifica in text
+          - Boolean (true / False)
+
+     * Variables
+          - var renumire = valoare;
+     )
+
+
+
+
+  1)  Denumiri var
+       "snake_case"
+  2)  Denumiri const
+       "CONSTANT_VALUE"
+
+
+                  --------     Operators     ----------
+
+  *  unary, binary, ternary
+
+  1 + 2    binary
+  10+      unary
+
+  *  arithmetic  (+, / , + , - , %) ---->Number
+
+  *  comparison  (<.> , <= , >= , == (Value) , ===(identic) , != , !== )
+
+  *  logic  (! - not , && - and , || - or)
+
+
+  --------------------    linear Programing   ---------------
+
+  <script>
+
+  alert("a"); //String
+  0-0;        //Number
+  alert("B");
+  1+1;
+  alert("C");
+
+  </script>
+
+  --------------------    linear Programing   ---------------
+
+
+  --------------------  NON linear Programing   ---------------
+
+
+  // flow control structures
+  // branching - if/else , switch / case
+  // looping   - while, for, do while/ break, continue
+
+
+
+
+
+  --------------------  NON  linear Programing   ---------------
+
+
+
+----------------------------------------------------------------
+  <script>
+
+  if( expression/ condition){
+    // code if true
+  }else {
+    //code if true
+  }
+
+  </script>
+------------------------------------------------------------------
+
+ --------------------------    while      -----------------------
+// Start condition
+
+while (expression/ condition){
+   // code to repeat
+   // step
+}
+
+-------------------------
+
+//start
+white ( condition ){
+//code
+//step
+}
+----------------------------------------------------------------
+---------------------------    switch   ------------------------
+
+switch (expression){       // ===
+case value1: codeA; break;
+case value2: codeB; break;
+case value3: codeC; break;
+//.....
+default: codeDefault; break;
+}
+
+----------------------------------------------------------------
+--------------------    for    ------------------------------
+
+for( start; condition ; step ){
+//code
+
+}
+--------------------------------------------------------------
+-------------------- do while      ------------------------
+
+//start
+do{
+    // code
+    //steps
+}while (condition) ;
+
+------------------------------------------------------------
+-------------------   animatii  -------------------------
+
+setTimeout(f,interval);
+setInterval(f,interval);
+
+clearTimeout(id);    // pt a opri animatia
+clearInterval(id);   // pt a opri animatia
+
+----------------------------------------------------------
+--------------   FUNCTION    -----------------------------
+
+* function  -> action()
+* function block of code with name
+* function -> subroutine
+* function -> black box (engine)
+
++ DRY --> Don't Repeat Yourself
++ separation of concerns
++ SOLID !!!!!!!!!!!!!!!!!!!!!!!!!!
+
+---------------------
+
+! declare + call        function f(){
+
+                        }
+                        f()
+! capsule
+! parameters / arguments
+! return values
+
+---------------------
+
+function name( arg1, arg2, arg3, ...){
+  ins1;
+  ins2;
+  ...
+  ins n ;
+  return value;
+}
+
+--------------------------------------------------------------
+
+//   99% information -> object (thing)
+
+// container -> structured
+// * properties
+// * methods                               (functii)
+-------------------     Array    --------------------------
+colectie (liste) ordonata de date
+
+
+-----------------------------------------------------------
+
+//   OOP
+
+// object, class
+// property -> variables
+// method() -> functionc()
+
+
+// static/ dynamic
+// inheritance
+// encapsulation
+
+
+ecma scrypt 6+
+
+///////////////////////    simple object  - literal  //////////
+
+var phone = {
+    // properties
+    front_camera: 20,
+    back_camera:  50,
+    color: "yellow",
+    price: 100000,  //mdl
+};
+
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+------------------   NIVEL 2   ----------------------------
+
+
+* classes / Objects ( --> React /Angular/ Vue/ nodejs)
+* DOM (Document Object Model)
+   - elements
+   - hierarchy
+   - attributes
+   - stylesheets
+   - events
+ * BOM (Browser Object Model)
+   - window
+   - navigator
+   - location - resources
+ * Web API
+    - Fetch API, AJAX <-> Server
+    - Storage API / Cache API
+    - Animation API
+    -Audiu API, Video API
+  * Google Services, Weather Services, News ...
+
+-----------------------------------------------------------
+
+  variabile si proprietati globale
+
+   DOM
+
+   document.title -> <title>
+   document.head -> <head>
+   document.body -> <body>
+   document.image -> img  Collection
+   document.links -> <links>
+   document.forms -> <forms>
+
+   window.xxxxx           -> <tag id="xxxx">
+   window.['xx-xx']           -> <tag id="xx-xx">
+
+// Functii de cautare in DOM
+document.getElementById('my-id')  -> obj / null document.getElementByClassName('my-class')  -> obj[] / []
+document.getElementByTagName('tag')  -> obj[] / []
+
+// modern
+document.querySelector('css selector') -> obj / null
+document.querySelectorAll('css selector') -> obj[] / []
+
+// ELEMENT
+element.xxxxxxxxx
+
+// ATTRIBUTES
+.innerHTML -> <tag> inner </tag>
+
+(standard : id, style , width, leight, ...)
+
+element.atributes
+
+
+--------------------------------
+
+* Object <-- appear <--- User- System
+* classes ( Mouse, Keyboard, DOM, Windows)
+
+*common properties
+  - coordonates ( X, Y, Z)
+  - code / status (ctrl, alt, shift,)
+  - target (source)
+  - type -> string('click' ,  'ketdown' , )
+  - isTrusted -> real / virtual
+  - .stopPropagation()
+  - .preventDefault()
+
+ * connect
+   1) <tag on[event]="function_name(;)">
+   2) <tag on[event]="function_name(;)">
+  -------------------------------------------------------------
+
+
+  STORAGE API
+    * document.cookie
+    * string "key=value;key2=value"
+    * javascript (client) / PHP (ыукмук)
+    * low memory < 4kb
+    * max age
+
+  window.localStorage   -> forever
+  window.sessionStorage -> close window
+    * <new>
+    * string " key= value"
+    * CLIENT !!!
+    * menory 10mb+
+
+
+-------------------------------------------------------------------
+
+------  pentru a nu incarca toata pagina dar doar o parte--------
+
+AJAX / fetcg API / websockets / Push Notification
+
+  * HTTP(S)
+      (request/response)
+      (GET/POST)
+      (status code)
+      (mine type/ data format)
+      (request lifecycle)
+      (CORS / XSS)
+
+
+--------   Blazy          ---->   foto
+
+------------------------------------------------------------------------
+promis !!!!!!!
+
+
+ 
+nomjs.com
+notejs !!!!!!!!!!!
+react -------frontent !!!!!!!!!!!
+vuejs.org -------- frontent
+
+
+
+recomandat 
+  *jquery
+  *notejs
+  *react,Angular,vuejs
+  *JS - ECMAScript 6,7,8
+  *arrow function
+  *operator "..."
+  *destructuring
+  *callback
+  *async / await
+  *promise
